@@ -464,3 +464,72 @@ html::-webkit-scrollbar-thumb:hover {
   color: #041216;
 }
 
+@media (max-width: 768px) {
+  .textSize {
+    font-size: 40px;
+    margin: 30px 0 10px;
+  }
+  .textTag {
+    font-size: 18px;
+  }
+  .textAbout {
+    font-size: 36px;
+  }
+  .container1 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .container2 .box {
+    width: 250px;
+    height: 350px;
+    margin: 30px 15px;
+  }
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+  .nav-link {
+    font-size: 16px !important;
+    margin-right: 10px;
+  }
+  #contactForm .form-control {
+    padding: 8px;
+  }
+  #contactForm button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .textSize {
+    font-size: 28px;
+    margin: 20px 0 8px;
+  }
+  .textTag {
+    font-size: 14px;
+  }
+  .textAbout {
+    font-size: 28px;
+  }
+  .container1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container2 .box {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+  .nav-link {
+    font-size: 14px !important;
+    margin-right: 8px;
+  }
+  #contactForm .form-control {
+    padding: 6px;
+  }
+  #contactForm button {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
